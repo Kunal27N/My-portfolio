@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: azure;
+    text-align: center;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a{
+    flex:1;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: azure;
+    transition: all 0.3s ease-out;
+}
+
+.navbar a:hover{
+    background-color: rgb(40, 123, 249);
+    text-decoration: underline;
+    color: #001C30;
+    font-size: 1.7rem;
+    border-radius: 6px;
+}
+#intro{
+    background-color: #001C30;
+    height: 800px;
+}
+
+.name{
+   padding: 3rem;
+}
+.myself{
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: 'Sacramento', cursive;
+    color: azure;
+}
+.profession{
+    font-size: 2rem;
+    font-family: 'Lugrasimo', cursive;
+}
+#intro-image{
+    height: 100%;
+    width: 100%;
+}
+#about{
+    background-color: #4E4FEB;
+}
+#hero{
+    text-align: center;
+}
+#aboutme{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding: 5rem;
+}
+.abouthead{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    text-decoration: underline;
+}
+#my-image{
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 4rem;
+}
+.hello{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #F4D160;
+}
+#skills-section{
+    background-color: #11009E;
+    height: 950px;
+    text-align: center;
+}
+.myskills{
+    text-align: center;
+    padding-top: 2rem;
+}
+#skill-head{
+    padding-top: 2rem;
+    padding-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: antiquewhite;
+}
+.skills{
+    width: 40%;
+    display: grid;
+    row-gap:3rem;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 50%;
+    text-align: left;
+    position: relative;
+    top:4em;
+    left: 30%;
+}
+.skills h2{
+color:azure;
+font-size: 3rem;
+}
+.skills p{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.skill-img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 2rem;
+}
+#skill{
+    height: 9rem;
+}
+
+#projects{
+    
+    background-color: #068FFF;
+    text-align: center;
+}
+.project-head{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    color: aliceblue;
+    text-decoration: underline;
+}
+.project-container{
+    margin-top: 3rem;
+}
+.project-container .col{
+    padding-right: .7rem;
+}
+.project-container p{
+    font-size: 1.5rem;
+}
+
+.project-row{
+    background: transparent;
+}
+
+#contact{
+    background-color: #001C30;
+    height: 600px;
+}
+
+#contact-head{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 0 1rem 3rem 1rem;
+    text-decoration: underline;
+}
+
+.contact-mail{
+    margin-bottom: 0px;
+    text-align: left;
+    padding: 5px 2rem 5px 3rem;
+}
+
+.contact-mail #touch{
+    color: #97FEED;
+    font-size: 3rem;
+    
+}
+.contact-mail p{
+    color: aqua;
+    font-size: 1.5rem;
+
+}
+#contact img{
+    height: 3rem;
+    width: 3rem;
+    text-align: left;
+}
+
+.handles{
+    text-align: center;
+}
+
+#handle{
+    color: azure;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #071952;
+    text-align: center;
+}
+
+#copyright{
+    font-size: 1rem;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+@media (min-width:840px) and (max-width:1200px) {
+    
+    #skills-section{
+        height: 100%;
+        width: 100%;
+        padding-bottom:5rem; 
+    }
+
+}
+@media (max-width:820px) {
+ 
+    .name{
+       text-align: center;
+    }
+
+   .intro{
+    text-align: left;
+   }
+
+
+   #skills-section{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5rem;
+    padding-right: 11rem;
+   }
+   .skills{
+    width: 60%;
+    position: relative;
+    left: 30%;
+   }
+
+   #skill-head{
+    position: relative;
+    padding-top: 20px;
+    top: 30%;
+    left: 50%;
+   }
+   .skill-img{
+    margin-right: 20px;
+   }
+   #contact{
+    height: 100%;
+   }
+}
