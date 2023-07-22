@@ -231,20 +231,17 @@ font-size: 3rem;
    #skills-section{
     height: 100%;
     width: 100%;
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
     padding-right: 11rem;
    }
    .skills{
-    width: 60%;
+    width: 100%;
     position: relative;
-    left: 30%;
    }
 
    #skill-head{
-    position: relative;
+    padding-left: 9rem;
     padding-top: 20px;
-    top: 30%;
-    left: 50%;
    }
    .skill-img{
     margin-right: 20px;
